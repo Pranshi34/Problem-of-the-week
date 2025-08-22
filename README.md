@@ -6,6 +6,7 @@ Logic:
 
 Start with the first number as initial GCD.
 Iteratively update the GCD with the next number using math.gcd().
+
 Time Complexity: O(n × log(min(a, b))) → for n numbers.
 Space Complexity: O(1) (no extra space).
 
@@ -19,6 +20,7 @@ For each node:
 Check if both left and right subtrees are unival.
 Check if node’s value matches children values.
 Single nodes are always unival.
+
 Time Complexity: O(n) → visits each node once.
 Space Complexity: O(h) → recursion stack, h = tree height.
 
@@ -29,6 +31,7 @@ Logic:
 
 Traverse each row, join characters, and check if the word is a substring.
 Traverse each column the same way.
+
 Time Complexity: O(M × N) → scanning matrix.
 Space Complexity: O(max(M, N)) → storing row/column string.
 
@@ -39,6 +42,7 @@ Logic:
 
 If total sum is odd → return False.
 Else use Dynamic Programming (Subset Sum): check if a subset sums to half of total.
+
 Time Complexity: O(n × target), where target = total_sum / 2.
 Space Complexity: O(target) → 1D DP array.
 
@@ -51,8 +55,9 @@ First take M (rows), N (cols).
 Input each row as characters.
 Input the word to search.
 Apply word search logic.
-Time Complexity: Same as problem 3 → O(M × N).
-Space Complexity: Same as problem 3 → O(max(M, N)).
+
+Time Complexity: O(M × N).
+Space Complexity: O(max(M, N)).
 
 6. Input Handling for Partition Equal Subset Sum
 Problem: Accept list from user and check if partition possible.
@@ -60,6 +65,7 @@ Problem: Accept list from user and check if partition possible.
 Logic:
 
 Input list of integers.
-Use DP-based solution (same as problem 4).
-Time Complexity: Same as problem 4 → O(n × target).
-Space Complexity: Same as problem 4 → O(target).
+Use DP-based solution .
+
+Time Complexity: O(n × target).
+Space Complexity: O(target).
