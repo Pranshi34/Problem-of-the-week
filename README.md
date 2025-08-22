@@ -66,8 +66,8 @@ Accept matrix and word from user input, then check word presence.
 - Input the word to search.  
 - Apply word search logic.  
 
-**Time Complexity:** Same as problem 3 → O(M × N).  
-**Space Complexity:** Same as problem 3 → O(max(M, N)).
+**Time Complexity:** O(M × N).  
+**Space Complexity:** O(max(M, N)).
 
 
 
@@ -76,7 +76,8 @@ Accept matrix and word from user input, then check word presence.
 
 **Logic:**  
 - Input list of integers.  
-- Use DP-based solution (same as problem 4).  
+- Use DP-based solution.  
 
-**Time Complexity:** Same as problem 4 → O(n × target).  
-**Space Complexity:** Same as problem 4 → O(target). 
+**Time Complexity:** O(n × target).  
+**Space Complexity:** O(target). 
+
